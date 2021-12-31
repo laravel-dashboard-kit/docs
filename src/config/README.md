@@ -4,12 +4,20 @@ sidebar: auto
 
 # Config
 
-## foo
+Browse default Laravel Dashboard Kit config file on [github](https://github.com/laravel-dashboard-kit/dashboard-ui/blob/master/config/dashboard-ui.php)
+
+## Default
+
+### Theme
+
+Selected dashboard theme. For example your directory called `dashboard-awesome`, so your theme is `awesome`
 
 - Type: `string`
-- Default: `/`
+- Default: `example`
 
-## bar
+### Layout
+
+Default layout when you use `x-dashboard-app` component
 
 - Type: `string`
-- Default: `/`
+- Default: `full`

@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Laravel Dashboard Kit Documentation
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /docs/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
