@@ -3,6 +3,7 @@ const { description } = require('../../package')
 module.exports = {
 	title: 'Laravel Dashboard Kit Docs',
 	description: description,
+	base: '/docs/',
 
 	head: [
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
