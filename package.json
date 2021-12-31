@@ -1,0 +1,19 @@
+{
+  "name": "ldk-docs",
+  "version": "0.0.1",
+  "description": "Laravel Dashboard Kit Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Amro Khaled",
+    "email": "amro@hashstudio.com"
+  },
+  "repository": "github:laravel-dashboard-kit/docs.git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
