@@ -35,7 +35,7 @@ module.exports = {
 				{
 					title: 'Docs',
 					collapsable: false,
-					children: ['', 'layouts'],
+					children: ['', 'layouts', 'components'],
 				},
 			],
 			'/config/': [
