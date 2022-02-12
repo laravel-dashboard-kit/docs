@@ -1,4 +1,8 @@
-# Layouts
+---
+sidebar: auto
+---
+
+# Introduction
 
 Layouts is the main component to display dashboard content. You can have any number of layouts you need, but I suggest to have these 3 [layouts](#available-layouts) in you project.
 

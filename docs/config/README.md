@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Config
+# Introduction
 
 Browse default Laravel Dashboard Kit config file on [github](https://github.com/laravel-dashboard-kit/dashboard-ui/blob/master/config/dashboard-ui.php)
 

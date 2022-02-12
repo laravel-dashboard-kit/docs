@@ -22,27 +22,34 @@ module.exports = {
 		lastUpdated: false,
 		nav: [
 			{
-				text: 'Docs',
-				link: '/docs/',
-			},
-			{
 				text: 'Config',
 				link: '/config/',
 			},
+			{
+				text: 'Layouts',
+				link: '/layouts/',
+			},
+			{
+				text: 'Components',
+				link: '/components/',
+			},
 		],
 		sidebar: {
-			'/docs/': [
-				{
-					title: 'Docs',
-					collapsable: false,
-					children: ['', 'layouts', 'components'],
-				},
-			],
 			'/config/': [
 				{
 					title: 'Config',
+				},
+			],
+			'/layouts/': [
+				{
+					title: 'Layouts',
+				},
+			],
+			'/components/': [
+				{
+					title: 'Components',
 					collapsable: false,
-					children: ['', 'foo'],
+					children: ['', 'alert', 'badge', 'button', 'form-image'],
 				},
 			],
 		},
