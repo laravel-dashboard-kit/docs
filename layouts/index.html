@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Introduction | Laravel Dashboard Kit Docs</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    
+    <meta name="description" content="Laravel Dashboard Kit Documentation">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.501e90d2.css" as="style"><link rel="preload" href="/docs/assets/js/app.5bebd9cd.js" as="script"><link rel="preload" href="/docs/assets/js/2.34bc9501.js" as="script"><link rel="preload" href="/docs/assets/js/17.d3f2961d.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.f5a0e3d1.js"><link rel="prefetch" href="/docs/assets/js/11.de7330b9.js"><link rel="prefetch" href="/docs/assets/js/12.d85551a4.js"><link rel="prefetch" href="/docs/assets/js/13.c7049f5b.js"><link rel="prefetch" href="/docs/assets/js/14.3582ef39.js"><link rel="prefetch" href="/docs/assets/js/15.13c8bcf6.js"><link rel="prefetch" href="/docs/assets/js/16.afee43f0.js"><link rel="prefetch" href="/docs/assets/js/3.7289fcc8.js"><link rel="prefetch" href="/docs/assets/js/4.e7ea5085.js"><link rel="prefetch" href="/docs/assets/js/5.a822af9d.js"><link rel="prefetch" href="/docs/assets/js/6.40f4510e.js"><link rel="prefetch" href="/docs/assets/js/7.c77d5991.js"><link rel="prefetch" href="/docs/assets/js/8.b852aac6.js"><link rel="prefetch" href="/docs/assets/js/9.a164d7d0.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.501e90d2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">Laravel Dashboard Kit Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/docs/layouts/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Layouts
+</a></div><div class="nav-item"><a href="/docs/components/" class="nav-link">
+  Components
+</a></div> <a href="https://github.com/laravel-dashboard-kit/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/config/" class="nav-link">
+  Config
+</a></div><div class="nav-item"><a href="/docs/layouts/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Layouts
+</a></div><div class="nav-item"><a href="/docs/components/" class="nav-link">
+  Components
+</a></div> <a href="https://github.com/laravel-dashboard-kit/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Introduction</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/layouts/#define-dashboard-layout" class="sidebar-link">Define dashboard layout</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/docs/layouts/#app" class="sidebar-link">App</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/docs/layouts/#available-layouts" class="sidebar-link">Available layouts</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/layouts/#full" class="sidebar-link">Full</a></li><li class="sidebar-sub-header"><a href="/docs/layouts/#horizontal" class="sidebar-link">Horizontal</a></li><li class="sidebar-sub-header"><a href="/docs/layouts/#blank" class="sidebar-link">Blank</a></li></ul></li><li><a href="/docs/layouts/#config" class="sidebar-link">Config</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/layouts/#default-layout" class="sidebar-link">Default layout</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h1> <p>Layouts is the main component to display dashboard content. You can have any number of layouts you need, but I suggest to have these 3 <a href="#available-layouts">layouts</a> in you project.</p> <h2 id="define-dashboard-layout"><a href="#define-dashboard-layout" class="header-anchor">#</a> Define dashboard layout</h2> <p>Layouts are available under <code>{your-dir}/resources/views/layouts</code> directory.  To use <a href="#default-layout">default</a> layout</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x-dashboard-app</span><span class="token punctuation">&gt;</span></span>
+    ...
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x-dashboard-app</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>To use another layout:</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x-dashboard-app-blank</span><span class="token punctuation">&gt;</span></span>
+    ...
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x-dashboard-app-blank</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Where blank is the layout name.</p> <h2 id="app"><a href="#app" class="header-anchor">#</a> App</h2> <p>The basic html file which will be extended in your layouts. Create new file <code>{your-dir}/resources/views/partials/app.blade.php</code>.</p> <p>Example from <a href="https://github.com/laravel-dashboard-kit/dashboard-cleopatra/blob/master/resources/views/app.blade.php" target="_blank" rel="noopener noreferrer">Dashboard Cleopatra<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>:</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+
+{--
+    Separated head in another file
+    @see https://github.com/laravel-dashboard-kit/dashboard-cleopatra/blob/master/resources/views/partials/head.blade.php
+--}
+@include('dashboard-cleopatra::partials.head')
+
+@yield('body')
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="available-layouts"><a href="#available-layouts" class="header-anchor">#</a> Available layouts</h2> <p>These are suggested layouts for your dashboard theme. You can have another naming. The suggested directory structure for layouts assets:</p> <ul><li><code>{your-dir}/resources/views/partials</code> To have parts of your code that will be used in multiple layouts</li> <li><code>{your-dir}/resources/views/areas/{layout-name}</code> To have parts of your code that will be used in each single layout</li></ul> <h3 id="full"><a href="#full" class="header-anchor">#</a> Full</h3> <p>It's the basic layout which contains sidebar, horizontal bar and content. Or any structure you prefer. Example from <a href="https://github.com/laravel-dashboard-kit/dashboard-cleopatra/blob/master/resources/views/layouts/full.blade.php" target="_blank" rel="noopener noreferrer">Cleopatra Dashboard<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>:</p> <div class="language-html extra-class"><pre class="language-html"><code>{-- Extend basic html structure for all your layouts --}
+@extends('dashboard-cleopatra::app')
+
+@section('body')
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>bg-gray-100<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        {-- Include preloader if you need --}
+        @include('dashboard-cleopatra::partials.loader')
+
+        {-- Include navbar if you have a one --}
+        @include('dashboard-cleopatra::areas.full.main-header')
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>h-screen flex flex-row flex-wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            {-- Include sidebar --}
+            @include('dashboard-cleopatra::areas.full.main-sidebar')
+
+            {-- Include content wrapper tags --}
+            @include('dashboard-cleopatra::areas.full.content')
+
+            {-- Place holder for modals if you need to call them later --}
+            @yield('modals')
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+        {-- Include footer if you have a one --}
+        @include('dashboard-cleopatra::partials.footer')
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+@endsection
+</code></pre></div><h3 id="horizontal"><a href="#horizontal" class="header-anchor">#</a> Horizontal</h3> <p>A layout with sidebar content on top, or any structure you prefer. Example from <a href="https://github.com/laravel-dashboard-kit/dashboard-cleopatra/blob/master/resources/views/layouts/horizontal.blade.php" target="_blank" rel="noopener noreferrer">Cleopatra Dashboard<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>:</p> <div class="language-html extra-class"><pre class="language-html"><code>@extends('dashboard-cleopatra::app')
+
+@section('body')
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>bg-gray-100<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        @include('dashboard-cleopatra::partials.loader')
+
+        @include('dashboard-cleopatra::areas.horizontal.main-header')
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>h-screen flex flex-row flex-wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            {-- Using custom dashboard component is allowed --}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x-dashboard-container</span><span class="token punctuation">&gt;</span></span>
+                @include('dashboard-cleopatra::areas.horizontal.content')
+
+                @yield('modals')
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x-dashboard-container</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+        @include('dashboard-cleopatra::partials.footer')
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+@endsection
+</code></pre></div><h3 id="blank"><a href="#blank" class="header-anchor">#</a> Blank</h3> <p>A layout with minimal content, or any structure you prefer.</p> <div class="language-html extra-class"><pre class="language-html"><code>@extends('dashboard-cleopatra::app')
+
+@section('body')
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>bg-gray-100<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        @include('dashboard-cleopatra::partials.loader')
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>h-screen flex flex-row flex-wrap<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x-dashboard-container</span><span class="token punctuation">&gt;</span></span>
+                {!! $slot !!}
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x-dashboard-container</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+        @include('dashboard-cleopatra::partials.footer')
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+@endsection
+</code></pre></div><h2 id="config"><a href="#config" class="header-anchor">#</a> Config</h2> <h3 id="default-layout"><a href="#default-layout" class="header-anchor">#</a> <a href="/docs/config/#layout">Default layout</a></h3></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.5bebd9cd.js" defer></script><script src="/docs/assets/js/2.34bc9501.js" defer></script><script src="/docs/assets/js/17.d3f2961d.js" defer></script>
+  </body>
+</html>
