@@ -11,9 +11,9 @@ Show confirm message. For better usage see [Confirm button](button#confirm)
 ```html
 <x-dashboard::alert.confirm id="confirmUniqueId"
     :options="['title' => 'Are you sure']">
-    <x-dashboard-button id="confirmUniqueId">
+    <x-dashboard::button id="confirmUniqueId">
         {!! $slot !!}
-    </x-dashboard-button>
+    </x-dashboard::button>
 </x-dashboard::alert.confirm>
 
 @push('scripts')
